@@ -1,18 +1,5 @@
-import Head from 'next/head'
+import { Main } from 'components/Main'
 
-type Props = {
-  title: string
-}
-
-export default function Home({ title = 'React Avançado!' }: Props) {
-  return (
-    <div className="container">
-      <Head>
-        <title>{title}</title>
-      </Head>
-      <h1 className="title">
-        Welcome to <a href="https://nextjs.org">{title}</a>
-      </h1>
-    </div>
-  )
+export default function Home() {
+  return <Main />
 }
