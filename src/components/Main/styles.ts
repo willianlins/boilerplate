@@ -9,13 +9,13 @@ export const Wrapper = styled.main`
   display: flex;
   flex-direction: column;
   text-align: center;
-  align-itens: center;
+  align-items: center;
   justify-content: center;
 `
 
 export const Logo = styled.img`
   width: 25rem;
-  margin-bootom: 2rem;
+  margin-bottom: 2rem;
 `
 
 export const Title = styled.h1`
@@ -24,7 +24,7 @@ export const Title = styled.h1`
 
 export const Description = styled.h2`
   font-size: 2rem;
-  font-weght: 400;
+  font-weight: 400;
 `
 
 export const Ilustration = styled.img`
